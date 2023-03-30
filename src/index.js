@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import Details from "./components/Details/Details";
+import Cashfree from "./components/Details/Cashfree";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/cashfree",
-    element: <Details />,
+    element: <Cashfree />,
   },
 ]);
 
